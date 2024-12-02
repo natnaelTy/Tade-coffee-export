@@ -1,0 +1,28 @@
+   [
+
+    {
+      "id": 0,
+      "images": "./images/onsite-1.jpg"
+    },
+    {
+      "id": 1,
+      "images": "./images/onsite-2.jpg"
+    },
+    {
+      "id": 2,
+      "images": "./images/onsite.jpg"
+    },
+    {
+      "id": 3,
+      "images": "./images/second-pic.jpg"
+    },
+    {
+      "id": 4,
+      "images": "./images/fourth-pic.jpg"
+    },
+    {
+      "id": 5,
+      "images": "./images/third-pic.jpg"
+    }
+  ]
+

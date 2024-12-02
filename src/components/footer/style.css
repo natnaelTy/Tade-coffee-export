@@ -1,0 +1,11 @@
+
+.coffee-map{
+    background-image: url(../images/headerPic.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.copyright{
+    border-top: 0.5px solid gray;
+}
