@@ -1,0 +1,16 @@
+.container{
+    border: 1px solid rgb(214, 214, 214);
+}
+.container:hover{
+    border: 1px solid rgb(1, 174, 1);
+}
+.marked::before{
+    content: '';
+    width: 80px;
+    height: 3.5px;
+    background-color: rgb(22, 140, 22);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+}

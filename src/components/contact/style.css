@@ -1,0 +1,16 @@
+.contact-text{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    color: rgba(30, 30, 30, 0.025);
+    left: 50%;
+    z-index: 0;
+    top: 30%;
+    font-size: 10rem;
+}
+
+input, textarea{
+    outline-color: green;
+    outline: none;
+    background-color: rgb(245, 245, 245);
+}
