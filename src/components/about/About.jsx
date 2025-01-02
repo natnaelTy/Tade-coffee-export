@@ -25,7 +25,7 @@ function About(){
                              transition={{duration: 1.5}}
                              viewport={{once: true}} 
                              className="relative max-w-xl">
-                  <img src="./images/tade-1.jpg" alt="" className="w-full h-full object-cover" />
+                  <img src="./images/onsite-2.jpg" alt="" className="w-full h-full object-cover" />
                </motion.div>
 
             </div>

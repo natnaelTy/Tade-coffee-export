@@ -64,7 +64,7 @@ function OrderingInfo(){
                      </div>
                  </div>
               <div className='max-w-xl w-full relative flex flex-col p-4 '>
-                     <img src="./images/tade.jpg" alt="on site" className='object-cover h-full w-full' />
+                     <img src="./images/tade-1.jpg" alt="on site" className='object-cover h-full w-full' />
               </div>
           </div>
         </div>

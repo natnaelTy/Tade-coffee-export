@@ -16,7 +16,7 @@ function TheProcess(){
 
                 </div>
             </motion.div>
-             <div className="p-2 md:p-5 flex gap-10 sm:mb-1 items-center justify-around flex-col lg:flex-row lg:gap-10 mt-10 lg:mt-4">
+             <div className="p-4 flex gap-10 sm:mb-1 items-center justify-around flex-col lg:flex-row lg:gap-10 mt-10 lg:mt-4">
                  <motion.div initial={{opacity: 0, y: 70}}
                              whileInView={{opacity: 1, y:0}}
                              transition={{duration: 1.5}}
