@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom"
-import { IoIosArrowForward } from "react-icons/io";
+
 import './style.css';
 function CommonHeader(){
 

@@ -23,7 +23,7 @@ function Contact(){
       setResult("Sending....");
       const formData = new FormData(event.target);
   
-      formData.append("access_key", "45f546c7-6041-46d0-ad23-7d9bc6b5b14a");
+      formData.append("access_key", "80e82641-b0bb-418d-af09-9f2d6e0e41db");
   
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -70,7 +70,7 @@ function Contact(){
                     <h2 className="hidden md:flex contact-text font-bold">CONTACT</h2>
                 </div>
     
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-around gap-6 text-center mt-8 p-5">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-around gap-6 text-center mt-8 p-4">
                      <div className="flex flex-col items-center justify-center">
                         <HiOutlineBuildingOffice2 className="text-2xl md:text-4xl text-black hover:text-green-800"/>
                         <h2 className="text-xl font-medium uppercase text-center">office address</h2>
@@ -95,8 +95,8 @@ function Contact(){
                   </div>
              </div>
 
-             <div className="flex items-center justify-center p-6 flex-col lg:flex-row bg-yellow-100 mt-10">
-                <div className="p-6 flex flex-col items-center justify-center bg-white shadow-xl gap-3 rounded-sm max-w-4xl mt-8">
+             <div className="flex items-center justify-center p-3 flex-col lg:flex-row bg-yellow-100 mt-10">
+                <div className="p-4 flex flex-col items-center justify-center bg-white shadow-xl gap-3 rounded-sm max-w-4xl mt-8">
                     <h1 className="uppercase text-2xl md:text-3xl lg:text-4xl text-green-800 font-semibold text-center">send us a message! </h1>
                     <p className="text-xs md:text-sm mb-2 text-center font-medium">Need a sample? Have a question? <br />Or do you just wanna talk?</p>
                     <form onSubmit={onSubmit}>
@@ -127,14 +127,14 @@ function Contact(){
                                   required
                                   className="h-32 p-2 resize-none rounded-sm">
                           </textarea> 
-                          <button type="submit" className="bg-green-800 hover:bg-black px-4 py-4 text-white font-semibold rounded-md ">Send</button>
+                          <button type="submit" className="bg-green-800 hover:bg-green-900 px-4 py-4 text-white font-semibold rounded-md ">Send</button>
                         </div>
                     </form>
                 </div>
              </div>
              
              <div>
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.840041773153!2d38.48076207499745!3d7.028080392973706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17b1452f26cf3247%3A0xff58001f612e485f!2sNext%20pictures!5e0!3m2!1sen!2set!4v1731831483560!5m2!1sen!2set" width="100%" height="350" style={{border: '0'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10879.935218665925!2d38.72432431602631!3d8.992350756345246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b870056fb0d55%3A0xdc78c20667ae5638!2sTade%20coffee%20export!5e1!3m2!1sen!2set!4v1734714308730!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
              </div>
           </div>
      </>

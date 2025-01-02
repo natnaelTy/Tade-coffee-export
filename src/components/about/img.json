@@ -14,15 +14,23 @@
     },
     {
       "id": 3,
-      "images": "./images/second-pic.jpg"
+      "images": "./images/coffeeSite.JPG"
     },
     {
       "id": 4,
-      "images": "./images/fourth-pic.jpg"
+      "images": "./images/tade-6.jpg"
     },
     {
       "id": 5,
-      "images": "./images/third-pic.jpg"
+      "images": "./images/tade-7.jpg"
+    },
+    {
+      "id": 6,
+      "images": "./images/tade-8.jpg"
+    },
+    {
+      "id": 7,
+      "images": "./images/tade-9.jpg"
     }
   ]
 
