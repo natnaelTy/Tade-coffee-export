@@ -38,7 +38,7 @@ function Home(){
                <h1 className="text-4xl text-white font-bold uppercase md:text-6xl z-10">Werka <span className="text-green-800 font-bold">coffee</span> Farm</h1>
                <h2 className="text-2xl text-white font-seimibold z-10 md:text-3xl">Speciality coffee from the land of origin.</h2>
                <p className="text-white text-sm md:text-lg mt-3 z-10">We source premium coffee beans directly from our farm in Ethiopia’s coffee-producing regions, focusing on global distribution</p>
-               <Link to={'/contact'} className='z-10'><button className="bg-white border-2 border-white px-4 py-3 rounded-sm uppercase font-semibold mt-8 hover:bg-transparent hover:text-white z-10 ">contact us</button></Link>
+               <button className="bg-white border-2 border-white px-4 py-3 rounded-sm uppercase font-semibold mt-8 hover:bg-transparent hover:text-white z-10 "><Link to={'/contact'}>contact us</Link></button>
            </motion.div>
            {
             images && images.length ? 
