@@ -43,7 +43,7 @@ function Footer(){
                     <h1 className="text-2xl md:text-3xl font-medium">Contact us</h1>
                     <div className="flex gap-4 items-center justify-start">
                         <MdLocalPhone className="text-2xl"/>
-                        <p>+251 975329588</p>
+                        <p>+251 913291960</p>
                     </div>
                     <div className="flex gap-4 items-center justify-start">
                         <MdOutlineMail className="text-2xl"/>
@@ -51,7 +51,7 @@ function Footer(){
                     </div>
                     <div className="flex gap-4 items-center justify-start">
                         <IoLocationSharp className="text-2xl"/>
-                        <p>Semit, Addis Ababa</p>
+                        <p>Sarbet, Addis Ababa</p>
                     </div>
                   </div>
                   </div>

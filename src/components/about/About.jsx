@@ -7,7 +7,7 @@ function About(){
     return(
         <>
         <div className="bg-yellow-100 relative">
-            <div className="grid p-8 items-center justify-center gap-8 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 min-h-screen">
+            <div className="grid p-4 md:p-6 items-center justify-center gap-8 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 min-h-screen">
                <motion.div initial={{opacity: 0, y: 60}}
                              whileInView={{opacity: 1, y:0}}
                              transition={{duration: 1.5}}

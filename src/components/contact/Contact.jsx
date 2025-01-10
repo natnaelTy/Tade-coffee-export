@@ -74,17 +74,17 @@ function Contact(){
                      <div className="flex flex-col items-center justify-center">
                         <HiOutlineBuildingOffice2 className="text-2xl md:text-4xl text-black hover:text-green-800"/>
                         <h2 className="text-xl font-medium uppercase text-center">office address</h2>
-                        <p className="text-gray-700">Semit, Keker Building 3th Floor, <br />Addis Ababa, Ethiopia</p>
+                        <p className="text-gray-700">Sarbet<br />Addis Ababa, Ethiopia</p>
                      </div>
                      <div className="flex flex-col items-center justify-center">
                         <MdOutlineMail className="text-2xl md:text-4xl text-black hover:text-green-800"/>
                         <h2 className="text-xl font-medium uppercase text-center">email address</h2>
-                        <p className="text-gray-700">infotade@gmail.com</p>
+                        <p className="text-gray-700">tadesedegifecoffeenensebo@gmail.com</p>
                      </div>
                      <div className="flex flex-col items-center justify-center">
                         <FaPhoneAlt className="text-2xl md:text-4xl text-black hover:text-green-800"/>
                         <h2 className="text-xl font-medium uppercase text-center">Phone</h2>
-                        <p className="text-gray-700">+251 9754368854 <br />+251 9357881785</p>
+                        <p className="text-gray-700">+251 911828573 <br />+251 913291960</p>
                      </div>
                      <div className="flex flex-col items-center justify-center">
                         <MdAccessTime className="text-2xl md:text-4xl text-black hover:text-green-800"/>
@@ -95,7 +95,7 @@ function Contact(){
                   </div>
              </div>
 
-             <div className="flex items-center justify-center p-3 flex-col lg:flex-row bg-yellow-100 mt-10">
+             <div className="flex items-center justify-center p-4 flex-col lg:flex-row bg-yellow-100 mt-10">
                 <div className="p-4 flex flex-col items-center justify-center bg-white shadow-xl gap-3 rounded-sm max-w-4xl mt-8">
                     <h1 className="uppercase text-2xl md:text-3xl lg:text-4xl text-green-800 font-semibold text-center">send us a message! </h1>
                     <p className="text-xs md:text-sm mb-2 text-center font-medium">Need a sample? Have a question? <br />Or do you just wanna talk?</p>

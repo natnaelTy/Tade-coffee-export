@@ -85,7 +85,7 @@ function NavBar(){
                                 initial="initial"
                                 animate="animate"
                                 exit="exit"
-                                className="navDropDown md:hidden origin-top flex basis-full items-start justify-between w-full top-0 bg-black text-white z-20 fixed gap-15 p-10 ">
+                                className="navDropDown md:hidden origin-top flex basis-full items-start justify-between w-full top-0 bg-[#1c1c1c] text-white z-20 fixed gap-15 p-10 ">
                            <ul onClick={hanldeShowMenu} className="flex flex-col items-start justify-start gap-10 mt-8">
                              <NavLinks/>
                           </ul>         

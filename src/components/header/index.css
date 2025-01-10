@@ -14,7 +14,7 @@
 }
 /* nav drop down */
 .navbar.active{
-    background-color: black;
+    background-color: #1c1c1c;
     color: white;
     position: fixed;
     transition: all 0.6s ease;

@@ -1,6 +1,9 @@
 
-.currentImage{
+.container .currentImage{
   animation: fade 1.5s;
+  width: 850px;
+  height: 400px;
+  object-fit: cover;
 }
 @keyframes fade {
   0%{
@@ -16,15 +19,16 @@
 
 .arrow {
     position: absolute;
-    color: #fff;
+    color: #fdfdfd;
     top: 50%;
     font-size: 35px;
     filter: drop-shadow(0px 0px 5px #929292);
     cursor: pointer;
+    font-size: 25px;
   }
 
   .arrow:hover{
-    color: rgba(255, 255, 255, 0.623);
+    color: #d8d8d8;
   }
   .arrowLeft {
     left: 1rem;
@@ -41,8 +45,8 @@
 
   .current-indicator{
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     margin: 0 0.3rem;
     cursor: pointer;
