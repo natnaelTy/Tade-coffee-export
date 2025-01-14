@@ -25,14 +25,14 @@ function Home(){
     useEffect(() => {
       setTimeout(() => {
         NextSlide();
-      },15000);
+      },1950);
     });
 
     return(
         <>
          <div className="home relative">
-           <motion.div initial={{opacity: 0, y: 150}}
-                       whileInView={{opacity: 1, y:0}}
+           <motion.div initial={{opacity: 0, y : 150}}
+                       whileInView={{opacity: 1, y : 0}}
                        transition={{duration: 1.5}}
                        viewport={{once: true}} 
                        className="flex flex-col items-center justify-center h-screen p-3 gap-3 text-center ">
