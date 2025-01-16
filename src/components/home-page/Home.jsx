@@ -25,7 +25,7 @@ function Home(){
     useEffect(() => {
       setTimeout(() => {
         NextSlide();
-      },1950);
+      },2000);
     });
 
     return(
