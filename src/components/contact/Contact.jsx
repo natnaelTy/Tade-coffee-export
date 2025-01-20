@@ -95,7 +95,7 @@ function Contact(){
                   </div>
              </div>
 
-             <div className="flex items-center justify-center p-4 flex-col lg:flex-row bg-yellow-100 mt-10">
+             <div className="flex items-center justify-center p-4 flex-col lg:flex-row bg-yellow-100 mt-10 pb-14">
                 <div className="p-4 flex flex-col items-center justify-center bg-white shadow-xl gap-3 rounded-sm max-w-4xl mt-8">
                     <h1 className="uppercase text-2xl md:text-3xl lg:text-4xl text-green-800 font-semibold text-center">send us a message! </h1>
                     <p className="text-xs md:text-sm mb-2 text-center font-medium">Need a sample? Have a question? <br />Or do you just wanna talk?</p>
@@ -132,10 +132,8 @@ function Contact(){
                     </form>
                 </div>
              </div>
+        
              
-             <div>
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10879.935218665925!2d38.72432431602631!3d8.992350756345246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b870056fb0d55%3A0xdc78c20667ae5638!2sTade%20coffee%20export!5e1!3m2!1sen!2set!4v1734714308730!5m2!1sen!2set" loading="lazy" className="w-96 md:w-3/5 lg:w-full h-96"></iframe>
-             </div>
           </div>
      </>
     )
