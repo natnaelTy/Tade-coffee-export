@@ -14,6 +14,7 @@ function OurSite(){
                         whileInView={{opacity: 1, y:0}}
                         transition={{duration: 1.5}}
                         viewport={{once: true}} 
+                        exit={{y:0}}
                         className="flex items-center justify-center flex-wrap gap-20 mt-14">
                 <div className="contain-image">
                     <div className="content shadow-xl">
